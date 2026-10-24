@@ -1,0 +1,6 @@
+"""Consistent UTC timestamps for audit and enrollment records."""
+from datetime import datetime, timezone
+
+def now():
+    return datetime.now(timezone.utc).isoformat(timespec='seconds')
+

@@ -1,0 +1,2 @@
+# Optional: only needed for the legacy full API integration suite test_api.py
+requests>=2.31,<3
